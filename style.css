@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Vibrant green background */
+    padding: 20px 0; /* Vertical padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.header-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Centering the container */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.logo h1 {
+    color: white; /* White color for the logo */
+    font-size: 2.5em; /* Larger font size for the logo */
+    margin: 0; /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Horizontal list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    margin: 0 20px; /* Space between links */
+}
+
+.nav-links a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Slightly larger font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.nav-links a:hover {
+    color: #f0f0f0; /* Light color on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.destination {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-image {
+    width: 40%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-text {
+    width: 60%;
+}
+
+.about-text h3 {
+    color: #4CAF50; /* Change color for headers */
+}
+
+.about-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
+/* Contact Us Section */
+#contact {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px 20px; /* Padding around the section */
+    text-align: center; /* Centered text */
+}
+
+#contact h2 {
+    color: #2c3e50; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Align items at the start */
+    max-width: 1300px; /* Maximum width for the container */
+    margin: 0 auto; /* Centering the container */
+    gap: 20px; /* Space between columns */
+}
+
+.contact-info {
+    flex: 1; /* Take equal space */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the info box */
+}
+
+.contact-info h3 {
+    color: #4CAF50; /* Green color for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.contact-info ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.contact-info li {
+    margin: 10px 0; /* Space between list items */
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #f9f9f9; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside the form */
+    flex: 2; /* Take more space than the info box */
+}
+
+.contact-form h3 {
+    color: #4CAF50; /* Dark text for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding inside fields */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    margin-bottom: 15px; /* Space below each field */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    font-size: 16px; /* Font size */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Light shadow effect */
+    outline: none; /* Remove default outline */
+}
+
+.contact-form button {
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White text */
+    padding: 12px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    font-size: 16px; /* Button font size */
+}
+
+.contact-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.contact-form button:active {
+    transform: translateY(1px); /* Press effect */
+}
+
+footer {
+    background-color: #65ac89; /* Dark background */
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Make it responsive */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the footer */
+}
+
+.footer-info,
+.footer-links,
+.footer-contact {
+    width: 30%; /* Flexbox item width */
+    margin-bottom: 20px;
+}
+
+.footer-info h3,
+.footer-links h3,
+.footer-contact h3 {
+    color: #f9f9f9; /* Green for headings */
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
